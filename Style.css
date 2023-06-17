@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(animated-overlay-overlay.gif);
+}
+
+.flexbox{
+    border: solid 2px yellow;
+    width: 300px;
+    height: 450px;
+    background-color: aqua;
+    text-align: center;
+    padding: 30px 2px;
+    font-size: 28px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flexbox:hover{
+    border: none;
+    width: 400px;
+    height: 500px;
+    background-color: blue;
+    transition: 2s;
+    color: white;
+}
